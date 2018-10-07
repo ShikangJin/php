@@ -1,0 +1,1 @@
+Hello, this is the text file that is read by php. If you can see me then everything are in the right track.
