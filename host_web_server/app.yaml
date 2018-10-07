@@ -5,3 +5,22 @@ threadsafe: true
 handlers:
 - url: /.*
   script: index.php
+
+- url: /index\.html
+  script: index.php
+
+- url: /about\.html
+  script: about.php
+
+- url: /contacts\.html
+  script: contacts.php
+
+- url: /news\.html
+  script: news.php
+
+- url: /service\.html
+  script: service.php
+
+- url: /(.*\.(gif|png|jpg))$
+  static_files: static/\1
+  upload: .+\.(git|png|jpg)$
